@@ -1,0 +1,160 @@
+.welcome {
+  height: 450px;
+  background-image: url("../img/banner-bg.jpg");
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-line {
+  flex-direction: row;
+  width: 1200px;
+  padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+  margin-top: 30px;
+}
+
+.logo-img {
+  width: 180px;
+}
+
+.menu {
+  align-self: center;
+  padding: 0;
+}
+
+.menu-list-item {
+  display: inline-block;
+  margin-right: 35px;
+  color: inherit;
+  font-size: 13px;
+  /*font-style: normal;*/
+  text-transform: uppercase;
+}
+
+.menu-list-item:last-child {
+  margin-right: 0px;
+}
+
+.menu-list-item:hover {
+  text-decoration: underline;
+}
+
+.menu-button {
+  display: none;
+}
+
+.welcome-title {
+  width: 700px;
+  margin: 90px 0 0;
+  font-size: 45px;
+  line-height: 75px;
+}
+
+.trend-card {
+  width: calc((100vw - 6px) / 4);
+}
+
+.section-titles {
+  font-size: 20px;
+}
+
+.trend-name {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main-info {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.entry-wrp {
+  width: 898px;
+  margin-left: 15px;
+}
+
+.entry {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.entry::after {
+  display: none;
+}
+
+.entry-img {
+  min-width: 382px;
+  width: 382px;
+  padding: 0;
+}
+
+.entry-info {
+  width: 100%;
+  padding-left: 28px;
+  padding-right: 120px;
+}
+
+.entry-meta-item {
+  margin-top: 0;
+}
+
+.entry-text {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.sidebar {
+  width: 272px;
+  margin: 0 15px 0 0;
+}
+
+.aside-themes-item {
+  width: 100%;
+}
+
+.shop-wrp {
+  width: 1200px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 0;
+  padding-left: 0;
+  gap: 40px;
+}
+
+.shop-item {
+  width: 32%;
+  /* display: flex;
+    flex-direction: column; */
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  /* width: 49%; */
+}
+
+.shop-item-preview {
+  width: 80%;
+}
+
+.shop-item-img {
+  width: 100%;
+}
+
+.shop-item-info {
+  flex-grow: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.socials {
+  width: 1200px;
+}

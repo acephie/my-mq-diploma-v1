@@ -1,0 +1,163 @@
+.welcome {
+  height: 392px;
+  background-image: url("../img/banner-bg-tablet.jpg");
+}
+
+.welcome-title {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.logo-line {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 35px;
+  margin: 60px 0;
+  flex-grow: 0;
+}
+
+.logo-img {
+  width: 20vw;
+  align-self: center;
+}
+
+.menu {
+  padding: 0;
+  align-self: center;
+}
+
+.menu-button {
+  width: 1em;
+  height: 0.8em;
+}
+
+.trend-card {
+  width: calc(50% - 2px);
+}
+
+.section-titles {
+  font-size: 18px;
+}
+
+.trend-name {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+@media (orientation: landscape) {
+  .trend-card {
+    width: calc((100% - 8px) / 4);
+  }
+}
+
+.main-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.entry-wrp {
+  /* width: 200px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-self: flex-start;
+  margin-top: 45px;
+  padding-right: 40px;
+  width: calc(100vw - 392px);
+}
+
+.entry {
+  margin-top: 50px;
+}
+
+.entry-img {
+  min-width: 250px;
+  width: calc(100vw - 392px);
+  padding: 0;
+}
+
+.entry-info {
+  width: 100%;
+}
+
+.entry::after {
+  width: 100%;
+}
+
+.entry-text {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.sidebar {
+  width: 272px;
+}
+
+.section-titles::after {
+  margin-bottom: 10px;
+}
+
+.new-posts-preview {
+  margin-top: 0;
+}
+
+.new-posts-info-item {
+  line-height: 16px;
+}
+
+.field {
+  margin-bottom: 40px;
+}
+
+.email-button {
+  margin-bottom: 40px;
+}
+
+.aside-meta-last {
+  margin-bottom: 40px;
+}
+
+.aside-themes-item {
+  width: 100%;
+}
+
+.shop-wrp {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 0;
+}
+
+.shop-item {
+  width: 50%;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  /* width: 49%; */
+}
+
+.shop-item-preview {
+  width: 80%;
+}
+
+.shop-item-img {
+  width: 100%;
+}
+
+.shop-item-info {
+  flex-grow: 1;
+}
+
+.socials {
+  padding: 0px 35px;
+}
