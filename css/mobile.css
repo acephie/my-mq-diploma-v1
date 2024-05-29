@@ -178,12 +178,13 @@ a {
   /* width: 100vw; */
   flex-wrap: wrap;
   gap: 2px;
+  /* row-gap: 2px; */
   justify-content: center;
 }
 
 .trend-card {
   display: flex;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
 
   max-width: 640px;
@@ -277,7 +278,7 @@ a {
 
 .entry-img {
   min-width: 320px;
-  width: 98vw;
+  width: 96vw;
   height: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -429,6 +430,10 @@ a {
   justify-content: space-between;
   font-size: 14px;
   margin-bottom: 46px;
+}
+
+.aside-box:last-child {
+  margin-bottom: 0px;
 }
 
 .aside-box-title {
@@ -602,7 +607,7 @@ a {
 .shop-wrp {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   gap: 25px;
   align-items: center;
 }
@@ -755,7 +760,7 @@ a {
 /*делаем футер конец*/
 
 .popup {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
